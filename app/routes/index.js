@@ -13,6 +13,9 @@ export default Ember.Route.extend({
     },
     allCommittees() {
       this.transitionTo('all-committees');
+    },
+    recentBills() {
+      this.transitionTo('recent-bills');
     }
   }
 });

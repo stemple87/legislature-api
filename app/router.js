@@ -11,6 +11,9 @@ Router.map(function() {
   this.route('houseCommittees');
   this.route('all-committees');
   this.route('sub-committees', {path: '/sub-committees/:committee_id'});
+  this.route('recent-bills');
+  this.route('bill-info');
+  this.route('bill-sponsor', {path:'/bill-sponsor/:sponsor.last_name'});
 });
 
 export default Router;

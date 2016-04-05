@@ -1,0 +1,11 @@
+<h1>I'm just a bill, yeah im only a bill</h1>
+<ul>
+{{#each model as |bill|}}
+<li>{{bill.official_title}}</li>
+<li>{{bill.introduced_on}}</li>
+<li>{{bill.bill_id}}</li>
+<li><button {{action 'billSponsorLink' bill.sponsor.last_name}}>{{bill.sponsor.first_name}} {{bill.sponsor.last_name}}</button></li>
+<hr />
+
+{{/each}}
+</ul>
