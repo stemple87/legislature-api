@@ -1,0 +1,11 @@
+<h1>Oregon Legislators</h1>
+
+{{#each model as |judge|}}
+  <li>{{judge.first_name}} {{judge.last_name}}</li> <li>{{judge.oc_email}}</li>
+  <li>{{judge.phone}}</li>
+  <li>{{judge.party}}</li>
+  <li>{{judge.office}}</li>
+
+
+  <hr />
+{{/each}}
