@@ -1,0 +1,11 @@
+<h1>Committee Page</h1>
+<ul>
+{{#each model as |committee|}}
+<li>{{committee.chamber}}</li>
+<li>{{committee.name}}</li>
+<li>{{committee.committee_id}}</li>
+<button {{action 'subCommitteesLink' committee}}>View Sub-Committees</button>
+
+<hr />
+{{/each}}
+</ul>

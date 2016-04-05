@@ -1,0 +1,9 @@
+<h1>House committees Page</h1>
+
+<ul>
+  {{#each model as |houseCommittees|}}
+    <li>{{houseCommittees.name}}</li>
+    <li>{{houseCommittees.chamber}}</li>
+    <hr />
+  {{/each}}
+</ul>
