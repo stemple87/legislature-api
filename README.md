@@ -1,7 +1,29 @@
-# Legislator-lookup
+# _Legislature API_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _This is a site that uses an api to view oregon legislatures_
+
+#### By _**{List of contributors}**_
+
+## Description
+
+_This site uses an api to sort congressmen and women by zip code. view upcoming bills and who endorsed them._
+
+## Known Bugs
+
+_None known_
+
+## Support and contact details
+
+_You can contact me at simonctemple@live.com or at my github profile https://github.com/stemple87_
+
+## Technologies Used
+
+_This app is made using Ember and Node.js_
+
+### License
+
+
+Copyright (c) 2015 **_Simon Temple_**
 
 ## Prerequisites
 
