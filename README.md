@@ -2,7 +2,7 @@
 
 #### _This is a site that uses an api to view oregon legislatures_
 
-#### By _**{List of contributors}**_
+#### By _**Simon Temple**_
 
 ## Description
 
